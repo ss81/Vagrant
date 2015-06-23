@@ -1,0 +1,16 @@
+Index: build/docroot/.htaccess
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build/docroot/.htaccess	(revision )
++++ build/docroot/.htaccess	(revision )
+@@ -107,7 +107,7 @@
+   #
+   # If your site is running in a VirtualDocumentRoot at http://example.com/,
+   # uncomment the following line:
+-  # RewriteBase /
++  RewriteBase /
+ 
+   # Redirect HTTP to HTTPS for edit.* domains
+   # See https://docs.acquia.com/articles/redirecting-traffic-between-http-and-https-acquia-cloud
